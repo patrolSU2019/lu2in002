@@ -14,9 +14,9 @@
                 "${fileDirname}/../../bin",
                 "${fileDirname}/*.java",
             ],
-            // "options": {
-            //     "cwd": "${workspaceFolder}",
-            // },
+            "options": {
+                "cwd": "${workspaceFolder}",
+            },
             "group": "build",
         }
     ]

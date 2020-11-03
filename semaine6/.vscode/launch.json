@@ -6,24 +6,24 @@
     "configurations": [
         {
             "type": "java",
-            "name": "CodeLens (Launch) - TestOrchestre",
-            "request": "launch",
-            "mainClass": "TestOrchestre",
-            "projectName": "semaine6_b7916ded"
-        },
-        {
-            "type": "java",
             "name": "Debug (Launch) - Current File",
             "request": "launch",
             "mainClass": "${file}",
             "preLaunchTask": "build"
         },
-        {
-            "type": "java",
-            "name": "Debug (Launch)-TestPersonne<semaine6_b7916ded>",
-            "request": "launch",
-            "mainClass": "TestPersonne",
-            "projectName": "semaine6_b7916ded"
-        }
+        // {
+        //     "type": "java",
+        //     "name": "CodeLens (Launch) - TestOrchestre",
+        //     "request": "launch",
+        //     "mainClass": "${file}",
+        //     "projectName": "semaine6_b7916ded"
+        // },
+        // {
+        //     "type": "java",
+        //     "name": "Debug (Launch)-TestPersonne<semaine6_b7916ded>",
+        //     "request": "launch",
+        //     "mainClass": "TestPersonne",
+        //     "projectName": "semaine6_b7916ded"
+        // }
     ]
 }
