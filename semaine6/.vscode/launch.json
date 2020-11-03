@@ -9,21 +9,15 @@
             "name": "Debug (Launch) - Current File",
             "request": "launch",
             "mainClass": "${file}",
-            "preLaunchTask": "build"
+            "preLaunchTask": "build",
+            "projectName": "semaine6_b7916ded"
         },
         // {
         //     "type": "java",
-        //     "name": "CodeLens (Launch) - TestOrchestre",
+        //     "name": "CodeLens (Launch) - TestVehicule",
         //     "request": "launch",
-        //     "mainClass": "${file}",
+        //     "mainClass": "TestVehicule",
         //     "projectName": "semaine6_b7916ded"
         // },
-        // {
-        //     "type": "java",
-        //     "name": "Debug (Launch)-TestPersonne<semaine6_b7916ded>",
-        //     "request": "launch",
-        //     "mainClass": "TestPersonne",
-        //     "projectName": "semaine6_b7916ded"
-        // }
     ]
 }
