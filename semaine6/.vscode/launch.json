@@ -9,7 +9,8 @@
             "name": "Debug (Launch) - Current File",
             "request": "launch",
             "mainClass": "${file}",
-            // "preLaunchTask": "build",
+            "preLaunchTask": "build",
+            // "cwd": "${workspaceFolder}",
         },
         {
             "type": "java",

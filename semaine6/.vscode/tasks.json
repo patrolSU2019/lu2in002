@@ -6,14 +6,18 @@
         {
             "label": "build",
             "type": "shell",
-            // "command": "javac",
-            // "args": [
-            //     "-cp",
-            //     "src",
-            //     "-d",
-            //     "bin",
-            //     "*.java"
-            // ]
+            "command": "javac",
+            "args": [
+                "-cp",
+                "${fileDirname}",
+                "-d",
+                "${fileDirname}/../../bin",
+                "${fileDirname}/*.java",
+            ],
+            // "options": {
+            //     "cwd": "${workspaceFolder}",
+            // },
+            "group": "build",
         }
     ]
 }
